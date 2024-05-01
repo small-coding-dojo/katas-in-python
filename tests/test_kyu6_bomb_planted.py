@@ -16,7 +16,7 @@ def create_empty_matrix(width, height):
 class BombAndCounterTerroristInSameRow:
     left = "TODO: set left to 'B' or 'CT'"
     right = "TODO: set right to 'B' or 'CT'"
-    row = 0  # TODO: set row to an integer number
+    row = 0
 
     @pytest.mark.parametrize('distance,time', [
         (1, 0),
